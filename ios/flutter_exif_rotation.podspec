@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
   # s.source_files = 'flutter_exif_rotation/Source/flutter_exif_rotation/**/*'
   s.source_files = 'flutter_exif_rotation/Sources/flutter_exif_rotation/**/*'
   s.dependency 'Flutter'
-  s.platform = :ios, '9.0'
+  # s.platform = :ios, '9.0'
+  s.platform = :ios, '13.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
