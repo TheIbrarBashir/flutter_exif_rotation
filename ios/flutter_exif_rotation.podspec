@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'BSD' }
   s.author           = { 'Nadia Ghebreial' => 'nadiagnieto@gmail.com' }
   s.source           = { :git => 'https://github.com/NGhebreial/flutter_exif_rotation.git', :tag => 'v0.3.0' }
-  s.source_files = 'flutter_exif_rotation/Source/flutter_exif_rotation/**/*'
+  # s.source_files = 'flutter_exif_rotation/Source/flutter_exif_rotation/**/*'
+  s.source_files = 'flutter_exif_rotation/Sources/flutter_exif_rotation/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '9.0'
 
